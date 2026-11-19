@@ -60,7 +60,7 @@ class SearchControllerTest extends TestCase
             ->assertSee('an-na')
             ->assertSee('Anyakönyvezhető')
             ->assertSee('Igen')
-            ->assertSee('Csoport')
+            ->assertSee('Eredet')
             ->assertSee('Nem tisztázott eredet')
             ->assertSee('Magyar eredet')
             ->assertSee('Rokonsági alapon átvett')

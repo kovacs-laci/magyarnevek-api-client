@@ -9,7 +9,7 @@
     <body>
         <header>
             <nav aria-label="Fő navigáció">
-                <a href="{{ route('names.index') }}">Magyar utónevek</a>
+                <!-- <a href="{{ route('names.index') }}">Magyar utónevek</a> -->
                 <a href="{{ route('names.index') }}">Névlista</a>
                 <a href="{{ route('search.index') }}">Keresés</a>
             </nav>

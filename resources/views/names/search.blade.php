@@ -155,7 +155,7 @@
                             <a href="{{ route('names.show', ['name' => $entity['name']]) }}">{{ $entity['name'] }}</a>
                         </h3>
 
-                        <dl>
+                        <!-- <dl>
                             @isset($entity['sex'])
                                 <dt>Nem</dt>
                                 <dd>{{ match ((int) $entity['sex']) { 1 => 'Férfi', 2 => 'Női', 3 => 'Mindkettő', default => 'Ismeretlen' } }}</dd>
@@ -172,7 +172,7 @@
                                 <dt>Eredet</dt>
                                 <dd>{{ config('names.groups.'.$entity['group'], $entity['group']) }}</dd>
                             @endisset
-                        </dl>
+                        </dl> -->
 
                         @isset($entity['description'])
                             <p>{{ $entity['description'] }}</p>
