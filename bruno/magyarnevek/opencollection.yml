@@ -1,0 +1,35 @@
+opencollection: 1.0.0
+
+info:
+  name: magyarnevek
+config:
+  proxy:
+    inherit: true
+    config:
+      protocol: http
+      hostname: ""
+      port: ""
+      auth:
+        username: ""
+        password: ""
+      bypassProxy: ""
+
+request:
+  headers:
+    - name: x-client-id
+      value: boronkay
+    - name: x-api-key
+      value: 356e3a0ecd646ce237b5780b6069903fbeeb1e1d08b30d6c
+  variables:
+    - name: api
+      value: https://magyarnevek.hu/api/v1
+    - name: client_id
+      value: boronkay
+    - name: api_key
+      value: 356e3a0ecd646ce237b5780b6069903fbeeb1e1d08b30d6c
+bundled: false
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git
